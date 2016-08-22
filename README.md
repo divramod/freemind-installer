@@ -13,3 +13,7 @@ ant run
 ```
 
 * once freemind is started you can click on the freemind symbol and lock it to the launcher
+
+Errors/Lessons Learned
+===============================================================================
+- java permission denied: http://stackoverflow.com/questions/26686084/linux-java-in-path-but-permissions-denied

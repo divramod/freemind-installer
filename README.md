@@ -6,7 +6,9 @@ cd freemind-installer
 mkdir extracted
 tar zxvf freemind-src-1.1.0_Beta_1.tar.gz -C extracted/
 sudo apt-get install ant
-cd extracted/freemind
+cd extracted
+sudo chmod a+x freemind/**/*.*
+cd freemind
 ant run
 ```
 
